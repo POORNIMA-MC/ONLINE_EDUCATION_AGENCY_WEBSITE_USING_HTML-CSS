@@ -1,0 +1,454 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10px; /* Adjust the padding as needed */
+    background-color:#333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 100px;
+}
+
+.logo {
+    font-size: 42px;
+    font-weight: bold;
+    height: 100%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+}
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    color: #fff;
+ 
+    padding: 120px 0; 
+    overflow: hidden;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Style for the hero-content section */
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
+    padding: 120px 0;
+    text-align: center;
+    height: 420px; /* Adjust this value to increase the height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e65c00;
+}
+
+/* Features Section Styles */
+.features {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature {
+    flex: 0 0 calc(33.33% - 40px); /* Adjust the width and spacing as needed */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    
+}
+
+.feature img {
+    max-width: 100%;
+    height: 150px; /* Set a fixed height for all images */
+    object-fit: contain; /* Maintain aspect ratio without stretching */
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature img:hover {
+    transform: scale(1.05);
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 18px;
+    color: #777;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+/* About Section Styles */
+.about {
+    background-image: url("C:\Users\gcaba\Desktop\TECHCITI INTERNSHIP\ONLINE EDUCATION\images\header3.jpg")
+    padding: 100px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    justify-content: left;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666666;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items:left;
+    flex-wrap: wrap;
+    height: 450px;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 100%;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 500px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.about-details {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Your existing CSS styles here */
+
+.contact {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact textarea {
+    resize: vertical;
+}
+
+.contact button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #e65c00;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .feature {
+        text-align: left;
+    }
+}
+.logo img {
+    max-height: 100%;
+    /* Adjust the max-height as needed */
+    max-width: 100%;
+    width: auto;
+    margin-right: 10px;
+}
+/* Your existing CSS styles here */
+
+.enroll-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.enroll-button:hover {
+    background-color: #e65c00;
+}
+/* Your existing CSS styles here */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff6600;
+}
+.customer-feedback {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+}
+
+.customer-feedback h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    margin-top: 30px;
+}
+
+.carousel-inner {
+    margin-bottom: 20px;
+}
+
+.carousel h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carousel span {
+    font-style: italic;
+}
+
+.carousel-control {
+    font-size: 40px;
+    background: none;
+    color: #333;
+}
+
+.carousel-indicators {
+    bottom: -25px;
+}
+
+.carousel-indicators li {
+    border: 2px solid #333;
+    background-color: #fff;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #333;
+}
+/* Testimonials Section */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+  }
+  
+  .carousel-inner blockquote {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-inner blockquote p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .carousel-inner blockquote footer {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .carousel-control {
+    color: #555;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
