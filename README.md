@@ -7,7 +7,8 @@
 
 
 ## About Us
-![Screenshot (225)](https://github.com/POORNIMA-MC/ONLINE_EDUCATION_AGENCY_WEBSITE_USING_HTML-CSS/assets/94465883/04eb7a35-6bec-4ec6-8ed3-a48894c4baa1)
+![Screenshot (225)](https://github.com/POORNIMA-MC/ONLINE_EDUCATION_AGENCY_WEBSITE_USING_HTML-CSS/assets/94465883/a3236dd8-312e-4a67-990a-a65bb0505686)
+
 
 
 ## Contact Page
